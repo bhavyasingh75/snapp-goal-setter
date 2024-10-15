@@ -111,7 +111,7 @@ export function PhotographerGoals() {
                 <Input 
                   id="newGoal"
                   value={newGoal} 
-                  onChange={(e) => setNewGoal(e.target.value)}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNewGoal(e.target.value)}
                   className="bg-[#faf3e3] text-[#5c4033]"
                 />
               </CardContent>
